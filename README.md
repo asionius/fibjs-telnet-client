@@ -29,10 +29,10 @@ opt 为可选参数
 	host: "127.0.0.1",	//telnet server address
 	port: 2323,			//telnet server port
 	timeout: 3000,		//connect timeout
-	shellPrompt: "/ #",	//shell 提示符
-	loginPrompt: "$",	//登录提示符
-	passwordPrompt: "Password",	//输入密码提示符
-	username: "Username",		//输入用户名提示符
+	shellPrompt: "/ #",	//shell 提示符 注：使用的时候应该以实际的telnet server为主
+	loginPrompt: "Username: ",	//登录提示符 注：使用的时候应该以实际的telnet server为主
+	passwordPrompt: "Password: ",	//输入密码提示符 注：使用的时候应该以实际的telnet server为主
+	username: "asionius",		// 用户名
 	password: "123456"		//密码
 	irs: "\r\n",			//输入换行符
 	ors: "\r\n",			//输出换行符
