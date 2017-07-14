@@ -46,6 +46,8 @@ opt 为可选参数
 ```
 ## test
 ```
-cd test && npm install
+cd test
+npm install
+npm run
 fibjs test.js
 ```
